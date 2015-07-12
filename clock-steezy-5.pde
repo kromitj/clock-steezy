@@ -149,7 +149,7 @@ void drawHour(int thisColor) {
   for (int k=0; k<= lastHour; k++) {
     if (k == 0) {
     } else if (k == 12) {
-      rect(hourLocations[k*2], hourLocations[k*2+1], 20, 8);
+      rect(hourLocations[k*2], hourLocations[k*2+1], 18, 8);
     } else {
       rect(hourLocations[k*2], hourLocations[k*2+1], 8, 8);
     };
