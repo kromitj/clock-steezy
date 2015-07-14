@@ -115,7 +115,7 @@ void drawAllTimeElements() {
 
 void drawMonth(int thisColor) {
    fill(thisColor);
-   for (int k=0; k<= lastMonth; k++) {
+   for (int k=0; k= lastMonth; k++) {
      if (k<3) {
        rect(monthLocations[k*2], monthLocations[k*2+1], 21, 7);
      } else if (k<6) {
